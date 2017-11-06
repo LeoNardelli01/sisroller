@@ -1,0 +1,91 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+ul, ol{
+   list-style: none;
+}
+ .header{
+   width: 100%;
+   height: 150px;
+}
+
+nav{
+   width: 1000px;
+   margin: 20px auto;
+   overflow: hidden;
+   border-radius: 4px;
+   background-color: #a5a5a5;
+   border-bottom: 1px solid #555555;
+   background: linear-gradient(#7b7b7b, #a5a5a5);
+}
+
+.menu{
+   width: 85%;
+   display: table;
+   table-layout: fixed;
+   float: left;
+}
+.menu li{
+   display: table-cell;
+   overflow: hidden;
+   width: 100%;
+   border-right: 1px solid #5c5c5c;
+   border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu li:first-child{
+   border-left: none;
+}
+.menu li:first-child{
+   border-left: none;
+}
+
+.menu li a{
+   color: white;
+   display: block;
+   font-family: "MyradPro-Regular.otf", Arial;
+   font-size: 15px;
+   padding: 10px 0;
+   text-align: center;
+   text-decoration: none;
+   text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+}
+
+.menu li:hover{
+   background: rgba(0,0,0,0.3);
+   border-right: 1px solid transparent;
+   border-left: 1px solid transparent;
+   border-bottom: none;
+}
+
+.menu li:active{
+   background: rgba(0, 0, 0, 0.3);
+   box-shadow: inset 0px 3px 2px rgba(0, 0, 0, 1);
+}
+.search-bar{
+   width: 15%;
+   float: left;
+   padding: 7px 10px;
+   box-sizing: border-box;
+
+}
+
+.search-bar input{
+   width: 100%;
+   height: 25px;
+   border-radius: 50px;
+   border: none;
+   border-bottom: 1px solid #858585;
+   padding: 0px 10px 0px 25px;
+   box-sizing: border-box;
+   box-shadow: inset 0px 1px 3px rgb(0, 0, 0, 0.7);
+   background: #7b7b7b;
+   background: linear-gradient(#7b7b7b, #a5a5a5);
+}
+
+.search-bar input:focus{
+   background: #fff;
+   box-shadow: none;
+}

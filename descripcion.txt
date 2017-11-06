@@ -1,0 +1,67 @@
+Proyecto SisRoller
+
+descripción preliminar:
+	El cliente quiere un sitio web para su fabrica de aberturas, donde se pide que se pueda hacer presupuestos online
+	con los precios actualizados de sus productos (lo mas importante del sitio) y que sea elegante, llamativa y totalmente 	optimizada para dispositivos mobiles como un M-COMMERCE o WebApp.
+	Quiere un carrito de compras para la parte de productos.
+	El carrito debe agregar productos, quitar productos, tener un total de la compra y una descripción de cada articulo  	agregado, poder pagar con diferentes medios de pago, 
+	
+	Los presupuestos se dividirán en dos grupos, de los cuales cada grupo hay subcategorias.
+	Poder elegir el tipo de material, color, medidas en centímetros de las aberturas, tipo de vidrios, si las quiere 		con o sin colocación, y que prepare un documento en pdf con :
+								las opciones seleccionadas, 
+								fecha actual, 
+								fecha de vencimiento del presupuesto,
+								Que tenga la opción de descargar o imprimir
+	También pide que los usuarios puedan loggearse,
+	Agregar barra de búsqueda rápida en header 
+
+
+Información necesaria:
+
+Fotos actuales
+Logotipo
+Información comercial (si opera con tarjetas y cuales, etc)
+Video institucional (opcional)
+Cantidad de productos
+Descripción de los productos
+Cantidad de servicios
+Descripción de los servicios
+información de contacto, redes sociales etc
+Institucional
+Diseño del sitio
+FAQ
+(IMPORTANTE: el cliente ya posee un dominio registrado a su nombre)
+
+Tecnologias a implementar
+
+HTML5
+CSS3
+Bootstrap
+PHP
+MySql
+
+
+
+Primer Sprint:
+
+- Maquetacion del sitio
+- Todos los links funcionando
+- Institucional
+- Redes sociales
+- Medios de pago (opcional)
+- Pagina de loggueo y Registracion
+- 
+
+
+Segundo Sprint:
+
+- Conectarse a la base de datos para registrar y logger usuarios
+- Recordar session y armados de cookie
+- Pulido de diseño
+- Maquetacion y diseño de pagina para Admin
+
+
+								   
+	
+
+
